@@ -1,14 +1,15 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "projekt.koncowy.kalkulator"
+    namespace = "projekt.app.aqualed"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "projekt.koncowy.kalkulator"
+        applicationId = "projekt.app.aqualed"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -59,6 +60,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.runtime:runtime-livedata:1.7.5")
+    implementation("androidx.datastore:datastore-core-android:1.1.1")
+    implementation("com.google.firebase:firebase-database-ktx:21.0.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -71,4 +75,5 @@ dependencies {
     val nav_version = "2.7.5"
 
     implementation("androidx.navigation:navigation-compose:$nav_version")
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568784575998",
+    "project_id": "aquabase-8bb68",
+    "storage_bucket": "aquabase-8bb68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568784575998:android:5aa263c7c13c4c0a3474af",
+        "android_client_info": {
+          "package_name": "projekt.app.aqualed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFX1PTywE9NorsAVA2_CdCdD0cuDLzIjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

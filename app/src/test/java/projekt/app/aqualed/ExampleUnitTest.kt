@@ -1,4 +1,4 @@
-package projekt.koncowy.kalkulator
+package projekt.app.aqualed
 
 import org.junit.Test
 

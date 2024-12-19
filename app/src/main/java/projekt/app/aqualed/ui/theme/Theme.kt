@@ -1,4 +1,4 @@
-package projekt.koncowy.kalkulator.ui.theme
+package projekt.app.aqualed.ui.theme
 
 import android.app.Activity
 import android.os.Build
